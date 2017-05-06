@@ -31,6 +31,7 @@ public class UserControllerImp {
         return service.getUserName(id);
     }
 
+
     @RequestMapping(value="/updateUser", method = RequestMethod.GET)
     @ResponseBody
     public int updateUser(HttpServletRequest request)
