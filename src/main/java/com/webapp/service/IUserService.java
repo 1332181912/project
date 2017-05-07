@@ -8,4 +8,6 @@ import com.webapp.model.User;
 public interface IUserService {
     public String getUserName(int id);
     public int updateUser(User user);
+
+    //This is a test
     }
